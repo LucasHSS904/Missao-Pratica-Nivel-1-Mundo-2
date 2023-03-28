@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(10, 169, 180);
+    color: black;
+}
+
+header{
+    height: 60px;
+}
+
+
+nav{
+    background-color: goldenrod;
+    height: 60px;
+
+}
+
+a{
+    color: black;
+    padding: 30px;
+}
+
+main{
+    height: calc(100vh - 100px);
+    display: flex;
+    overflow-y: auto;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 25vh;
+    size: 30px;
+}
+
+footer{
+    height: 40px;
+    padding-top: 5px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+
